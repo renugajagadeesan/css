@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table,th,td{
+               
+                margin-left: auto;
+                margin-right:auto;
+                margin-top:100px;
+                padding:15px;
+                
+                
+            }
+            th{
+                
+                background-color: rgb(83, 94, 196);
+                text-align: center;  
+            }
+            td{
+
+              text-align: center;
+              border: 2px solid rgb(250, 245, 245);
+            }
+            td:hover{
+                animation-name: rot;
+                animation-duration: 4s;
+                animation-timing-function:2s;
+            }
+            @keyframes rot{
+            from{right:50px;}
+            to{right:600px;}
+            0%{transform: rotate(0);}
+            25%{transform: rotate(45deg);}
+            50%{transform:rotate(90deg);}
+            75%{transform:rotate(180deg);}
+            100%{transform:rotate(360deg);}
+            }
+            tr:nth-child(even){
+                background-color: rgb(133, 179, 240);
+            }
+            tr:nth-child(odd){
+                background-color: rgb(53, 109, 182);
+            }
+            tr:nth-child(odd):hover{
+                background-color: grey;
+                color:aliceblue;
+            }
+            tr:nth-child(even):hover{
+                background-color: rgb(27, 29, 31);
+                color:aliceblue;
+            }
+            th:hover{
+                background-color: rgb(50, 66, 61);
+                color:aliceblue;
+            }
+            h1 {
+                color:aliceblue;
+                text-align: center;
+                color: white;
+                text-shadow: 2px 2px 4px #f0eaea;
+            }
+    </style>
+    </head>
+    <body style="background-color: black;">
+        <h1>STUDENT MARK LIST</h1>
+        <table style="margin-top: 20px;" >
+            
+            <tr>
+                <th>S.NO</th>
+                <th>ROLL NO</th>
+                <th>NAME</th>
+                <th>TAMIL</th>
+                <th>ENGLISH</th>
+                <th>MATHS</th>
+                <th>SCIENCE</th>
+                <th>SOCIAL</th>
+                <th>TOTAL</th>
+                <th>AVERAGE</th>
+                <th>RANK</th>
+
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>20203</td>
+                <td>AKSHATH</td>
+                <td>95</td>
+                <td>89</td>
+                <td>90</td>
+                <td>92</td>
+                <td>96</td>
+                <td>467</td>
+                <td>92.4</td>
+                <td>2nd</td>
+                
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>20204</td>
+                <td>VIKRAM</td>
+                <td>95</td>
+                <td>75</td>
+                <td>90</td>
+                <td>83</td>
+                <td>90</td>
+                <td>433</td>
+                <td>86.6</td>
+                <td>3rd</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>20205</td>
+                <td>ANANTH</td>
+                <td>75</td>
+                <td>80</td>
+                <td>90</td>
+                <td>56</td>
+                <td>39</td>
+                <td>340</td>
+                <td>68</td>
+                <td>7th</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>20206</td>
+                <td>SHAKSHI</td>
+                <td>60</td>
+                <td>70</td>
+                <td>56</td>
+                <td>78</td>
+                <td>90</td>
+                <td>354</td>
+                <td>70.8</td>
+                <td>6th</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>20207</td>
+                <td>YATHRRA</td>
+                <td>80</td>
+                <td>70</td>
+                <td>85</td>
+                <td>90</td>
+                <td>75</td>
+                <td>400</td>
+                <td>80</td>
+                <td>5th</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>20208</td>
+                <td>MEGHNA</td>
+                <td>75</td>
+                <td>89</td>
+                <td>75</td>
+                <td>93</td>
+                <td>80</td>
+                <td>412</td>
+                <td>82.4</td>
+                <td>4th</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>20209</td>
+                <td>RAASHI</td>
+                <td>90</td>
+                <td>98</td>
+                <td>99</td>
+                <td>86</td>
+                <td>96</td>
+                <td>469</td>
+                <td>93.8</td>
+                <td>1st</td>
+            </tr>
+        </table>
+
+    </body>
+</html>

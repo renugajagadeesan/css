@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            box-sizing: border-box;
+            background-color: rgba(8, 0, 0, 0.897);
+        }
+        
+        .col-75{
+            width:74%;
+            height:700px;
+            display: inline;
+            float: left;
+            overflow: hidden;
+            animation-name:ex;
+            animation-iteration-count: infinite;
+            animation-duration: 10s;
+           
+        }
+        @keyframes ex{
+            0%{background-image: url(https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);background-repeat: no-repeat; background-size: 100% 700px;}
+            25%{background-image: url(https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);background-repeat: no-repeat; background-size: 100% 700px;}
+            50%{background-image: url(https://images.unsplash.com/photo-1523978591478-c753949ff840?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fGxhbmRzY2FwZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);background-repeat: no-repeat; background-size: 100% 700px;}
+            100%{background-image: url(https://plus.unsplash.com/premium_photo-1669829646756-083a328c0abb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTN8fGxhbmRzY2FwZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);background-repeat: no-repeat;background-size: 100% 700px;}
+            
+        }
+        
+        .col-25{
+            width:25%;
+            float:left;
+            overflow: hidden;
+            height:700px;
+            padding-top: 250px;
+            padding-right: 90px;
+            color: rgb(228, 217, 217);
+            
+        }
+         button{
+            border: 1px solid rgb(241, 240, 240);
+            background-color: rgb(10, 10, 10);
+            color: aliceblue;
+            text-align: right;
+            margin-left: 90px;
+            cursor: pointer;
+         }
+         .p:hover{
+              background-color: aliceblue;
+         }
+         table{
+            text-align: center;
+            padding:25px 30px;
+         }
+         
+        
+        </style>
+        </head>
+        <body>
+            <h1 style="color:azure;text-align: center;">CATCH YOUR MEMORIES</h1>    
+    
+        <div class="col-75">
+
+     </div>
+        <div class="col-25">
+             
+        <form action="" method="post">
+        <table >
+            <h2 style="text-align: center;">JOIN US</h2>
+            <h4 style="text-align: center;">Target,Focus And Capture</h4>
+        <tr> 
+        
+        <td><label for="uname">USERNAME</label></td>
+        <td class="p"><input text="text" name="uname" id="uname"></td>
+        </tr>
+        <tr>
+        <td><label for="email">EMAIL:</label></td>
+        <td class="p"><input type="text" name="email" min="5" max="15" required></td>
+        </tr>
+        <tr>
+        <td><label for="password">PASSWORD:</label></td>
+        <td class="p"><input type="password" name="email" min="5" max="15" required></td>
+       </tr>
+    </table>
+    <button type="button">LOGIN</button>
+    </div>
+    </form>   
+</body>
+</html>
